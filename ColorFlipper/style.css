@@ -1,0 +1,38 @@
+
+button {
+    display: inline-block;
+    padding: 30px 40px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #020044;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1) rotate(10deg);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.diagonal-div {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    padding: 10px;
+}
